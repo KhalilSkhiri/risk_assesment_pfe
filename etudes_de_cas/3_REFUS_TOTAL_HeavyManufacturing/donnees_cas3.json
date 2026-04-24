@@ -1,0 +1,182 @@
+{
+  "company": {
+    "name": "HeavyManufacturing Steel Corp",
+    "sector": "Sidérurgie & Production Acier",
+    "annual_revenue_mdt": 600,
+    "year": 2024,
+    "location": "Ben Arous, Tunisie",
+    "status": "Aucun engagement RSE visible"
+  },
+  "activities": [
+    {
+      "name": "Charbon sidérurgie",
+      "quantity": 2000000,
+      "unit": "kWh",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "coal",
+      "facility": "Haut-fourneau 1",
+      "month": 12
+    },
+    {
+      "name": "Gaz naturel fours",
+      "quantity": 800000,
+      "unit": "kWh",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "natural_gas",
+      "facility": "Fours à arc",
+      "month": 12
+    },
+    {
+      "name": "Coke processus",
+      "quantity": 3000,
+      "unit": "tonnes",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "coke",
+      "facility": "Haut-fourneau 1",
+      "month": 12
+    },
+    {
+      "name": "Diesel machines",
+      "quantity": 10000,
+      "unit": "L",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "diesel",
+      "facility": "Usine",
+      "month": 12
+    },
+    {
+      "name": "Fuites réfrigération système",
+      "quantity": 2000,
+      "unit": "kg",
+      "scope": 1,
+      "type": "fugitive_emissions",
+      "facility": "Système refroidissement",
+      "month": 12
+    },
+    {
+      "name": "Électricité réseau charbon",
+      "quantity": 500000,
+      "unit": "kWh",
+      "scope": 2,
+      "type": "electricity",
+      "source": "coal",
+      "facility": "Usine",
+      "month": 12
+    },
+    {
+      "name": "Électricité thermique",
+      "quantity": 300000,
+      "unit": "kWh",
+      "scope": 2,
+      "type": "electricity",
+      "source": "thermal",
+      "facility": "Usine",
+      "month": 12
+    },
+    {
+      "name": "Eau approvisionnement industrielle",
+      "quantity": 50000,
+      "unit": "m3",
+      "scope": 3,
+      "type": "water",
+      "water_type": "supply",
+      "facility": "Usine",
+      "month": 12
+    },
+    {
+      "name": "Déchets décharge",
+      "quantity": 100000,
+      "unit": "kg",
+      "scope": 3,
+      "type": "waste",
+      "waste_type": "landfill",
+      "facility": "Site",
+      "month": 12
+    },
+    {
+      "name": "Voyages professionnels",
+      "quantity": 30000,
+      "unit": "km",
+      "scope": 3,
+      "type": "business_travel",
+      "travel_type": "air",
+      "facility": "Sièges",
+      "month": 12
+    },
+    {
+      "name": "Transport fret maritime",
+      "quantity": 1000000,
+      "unit": "tkm",
+      "scope": 3,
+      "type": "business_travel",
+      "travel_type": "shipping",
+      "facility": "Distribution",
+      "month": 12
+    }
+  ],
+  "assessment": {
+    "total_emissions_kg_co2e": 12133700,
+    "carbon_intensity": 2022.3,
+    "scope1_emissions": 11827300,
+    "scope2_emissions": 120000,
+    "scope3_emissions": 186400,
+    "risk_level": "ÉLEVÉ",
+    "recommendation": "ROUGE - INVESTISSEMENT REFUSÉ",
+    "approval_probability": 0.05,
+    "critical_issues": [
+      "Intensité carbone 4x supérieure au seuil",
+      "Aucun engagement ESG ou SBTi",
+      "Non-conformité réglementaire flagrante",
+      "Risque de stranded assets critique",
+      "CBAM impact estimé 250+ MDT/an à partir 2026"
+    ]
+  },
+  "regulatory_risks": {
+    "tunisia_carbon_law_2022": {
+      "target": "-30% carbone 2030",
+      "current_trajectory": "+0%",
+      "status": "NON CONFORME"
+    },
+    "eu_cbam_2026": {
+      "impact_year": "2026",
+      "estimated_cost_mdt": 250,
+      "company_viability": "COMPROMISE"
+    },
+    "insolvency_risk": {
+      "scenario": "Sans action",
+      "timeline": "2028-2030",
+      "probability": "60%"
+    }
+  },
+  "financial_scenarios": {
+    "no_action": {
+      "year_end": 2030,
+      "esg_rating": "Dégradé",
+      "outcome": "Fermeture"
+    },
+    "light_transformation": {
+      "investment_mdt": 150,
+      "reduction_percent": 20,
+      "viability": "Toujours inacceptable"
+    },
+    "full_transformation_hydrogen": {
+      "investment_mdt": 500,
+      "timeline_years": 8,
+      "probability": 0.15,
+      "capital_cost_percent": 8.5,
+      "viability": "Très risquée, peu probable"
+    }
+  },
+  "reconsideration_conditions": {
+    "rd_budget_mdt_annual": 50,
+    "sbti_engagement": "Required",
+    "hydrogen_conversion_percent_by_2028": 30,
+    "external_audit": "Quarterly",
+    "governance_requirement": "Director of Transition appointed",
+    "reconsideration_timeline_years": 5
+  }
+}

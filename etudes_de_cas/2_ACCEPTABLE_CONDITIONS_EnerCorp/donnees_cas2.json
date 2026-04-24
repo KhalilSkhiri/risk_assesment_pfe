@@ -1,0 +1,144 @@
+{
+  "company": {
+    "name": "EnerCorp Industries SARL",
+    "sector": "Énergie & Distribution Électrique",
+    "annual_revenue_mdt": 400,
+    "year": 2024,
+    "location": "Sfax, Tunisie",
+    "status": "En transition énergétique"
+  },
+  "activities": [
+    {
+      "name": "Gaz naturel génération",
+      "quantity": 500000,
+      "unit": "kWh",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "natural_gas",
+      "facility": "Centrale Sfax",
+      "month": 12
+    },
+    {
+      "name": "Charbon secours",
+      "quantity": 50000,
+      "unit": "kWh",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "coal",
+      "facility": "Centrale Sfax",
+      "month": 12
+    },
+    {
+      "name": "Diesel véhicules",
+      "quantity": 2000,
+      "unit": "L",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "diesel",
+      "facility": "Flotte transport",
+      "month": 12
+    },
+    {
+      "name": "Fuites réfrigération",
+      "quantity": 500,
+      "unit": "kg",
+      "scope": 1,
+      "type": "fugitive_emissions",
+      "facility": "Système climatisation",
+      "month": 12
+    },
+    {
+      "name": "Électricité thermique",
+      "quantity": 150000,
+      "unit": "kWh",
+      "scope": 2,
+      "type": "electricity",
+      "source": "thermal",
+      "facility": "Siège",
+      "month": 12
+    },
+    {
+      "name": "Électricité renouvelable",
+      "quantity": 100000,
+      "unit": "kWh",
+      "scope": 2,
+      "type": "electricity",
+      "source": "renewable",
+      "facility": "Siège",
+      "month": 12
+    },
+    {
+      "name": "Eau approvisionnement",
+      "quantity": 5000,
+      "unit": "m3",
+      "scope": 3,
+      "type": "water",
+      "water_type": "supply",
+      "facility": "Centrale",
+      "month": 12
+    },
+    {
+      "name": "Déchets traitement",
+      "quantity": 10000,
+      "unit": "kg",
+      "scope": 3,
+      "type": "waste",
+      "waste_type": "landfill",
+      "facility": "Centrale",
+      "month": 12
+    },
+    {
+      "name": "Voyages professionnels",
+      "quantity": 20000,
+      "unit": "km",
+      "scope": 3,
+      "type": "business_travel",
+      "travel_type": "air",
+      "facility": "Siège",
+      "month": 12
+    }
+  ],
+  "assessment": {
+    "total_emissions_kg_co2e": 514410,
+    "carbon_intensity": 128.6,
+    "scope1_emissions": 485460,
+    "scope2_emissions": 23100,
+    "scope3_emissions": 5850,
+    "risk_level": "MODÉRÉ",
+    "recommendation": "JAUNE - ACCEPTABLE SOUS CONDITIONS",
+    "approval_probability": 0.60,
+    "conditions_required": [
+      "Plan carbone signé avec réduction 40% en 5 ans",
+      "Engagement SBTi obligatoire",
+      "Remplacement système réfrigération année 1",
+      "ISO 14001 avant investissement",
+      "Transition 40% vers 70% renouvelable 2029"
+    ]
+  },
+  "transition_scenario": {
+    "2024": {
+      "emissions": 514410,
+      "carbon_intensity": 128.6,
+      "renewal_percent": 40,
+      "risk": "MODÉRÉ"
+    },
+    "2025": {
+      "emissions": 385000,
+      "carbon_intensity": 96.3,
+      "renewal_percent": 50,
+      "risk": "FAIBLE"
+    },
+    "2026": {
+      "emissions": 308000,
+      "carbon_intensity": 77.0,
+      "renewal_percent": 60,
+      "risk": "FAIBLE"
+    },
+    "2029": {
+      "emissions": 180000,
+      "carbon_intensity": 45.0,
+      "renewal_percent": 70,
+      "risk": "FAIBLE"
+    }
+  }
+}

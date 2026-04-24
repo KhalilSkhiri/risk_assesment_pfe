@@ -1,0 +1,91 @@
+{
+  "company": {
+    "name": "GreenTech Solutions SA",
+    "sector": "Technologie & Énergies Renouvelables",
+    "annual_revenue_mdt": 150,
+    "year": 2024,
+    "location": "Tunis, Tunisie"
+  },
+  "activities": [
+    {
+      "name": "Gaz naturel chauffage",
+      "quantity": 5000,
+      "unit": "kWh",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "natural_gas",
+      "facility": "Siège principal",
+      "month": 12
+    },
+    {
+      "name": "Diesel urgence",
+      "quantity": 100,
+      "unit": "L",
+      "scope": 1,
+      "type": "fossil_fuel",
+      "fuel_type": "diesel",
+      "facility": "Siège principal",
+      "month": 6
+    },
+    {
+      "name": "Électricité renouvelable",
+      "quantity": 150000,
+      "unit": "kWh",
+      "scope": 2,
+      "type": "electricity",
+      "source": "renewable",
+      "facility": "Siège principal",
+      "month": 12
+    },
+    {
+      "name": "Électricité réseau",
+      "quantity": 50000,
+      "unit": "kWh",
+      "scope": 2,
+      "type": "electricity",
+      "source": "grid",
+      "facility": "Siège principal",
+      "month": 12
+    },
+    {
+      "name": "Eau approvisionnement",
+      "quantity": 1000,
+      "unit": "m3",
+      "scope": 3,
+      "type": "water",
+      "water_type": "supply",
+      "facility": "Siège principal",
+      "month": 12
+    },
+    {
+      "name": "Déchets recyclage",
+      "quantity": 2000,
+      "unit": "kg",
+      "scope": 3,
+      "type": "waste",
+      "waste_type": "recycling",
+      "facility": "Siège principal",
+      "month": 12
+    },
+    {
+      "name": "Voyages professionnels",
+      "quantity": 5000,
+      "unit": "km",
+      "scope": 3,
+      "type": "business_travel",
+      "travel_type": "air",
+      "facility": "Siège principal",
+      "month": 12
+    }
+  ],
+  "assessment": {
+    "total_emissions_kg_co2e": 10923,
+    "carbon_intensity": 72.82,
+    "scope1_emissions": 1523,
+    "scope2_emissions": 8400,
+    "scope3_emissions": 1000,
+    "risk_level": "FAIBLE",
+    "recommendation": "VERT - INVESTISSEMENT RECOMMANDÉ",
+    "approval_probability": 0.95
+  }
+}
