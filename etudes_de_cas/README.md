@@ -14,18 +14,18 @@ Ce dossier contient 3 cas d'étude réalistes pour démontrer comment le tableau
 
 ## 📂 Structure des Cas
 
-### Cas 1: `1_ACCEPTABLE_GreenTech_Solutions/`
+### Cas 1: `1_ACCEPTABLE_Entreprise_1/`
 **Profil Climat Favorable** 🟢
 - Entreprise de technologie verte avec forte réduction carbone
 - Intensité carbone: ~50 kg CO2e/$1M
 
-### Cas 2: `2_ACCEPTABLE_CONDITIONS_EnerCorp/`
+### Cas 2: `2_ACCEPTABLE_CONDITIONS_Entreprise_2/`
 **Profil Climat Modéré** 🟡
 - Entreprise énergétique en transition
 - Intensité carbone: ~250 kg CO2e/$1M
 - Conditions: Engagement SBTi, plan de décarbonisation
 
-### Cas 3: `3_REFUS_TOTAL_HeavyManufacturing/`
+### Cas 3: `3_REFUS_TOTAL_Entreprise_3/`
 **Risque Climatique Élevé** 🔴
 - Entreprise manufacturière lourde polluante
 - Intensité carbone: ~750 kg CO2e/$1M

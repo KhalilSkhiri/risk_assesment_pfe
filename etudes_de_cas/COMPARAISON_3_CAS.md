@@ -2,7 +2,7 @@
 
 ## 📊 Récapitulatif Exécutif
 
-| Critère | Cas 1: GreenTech | Cas 2: EnerCorp | Cas 3: HeavyManufacturing |
+| Critère | Cas 1: Entreprise 1 | Cas 2: Entreprise 2 | Cas 3: Entreprise 3 |
 |---------|-----------------|-----------------|-------------------------|
 | **Classification** | 🟢 ACCEPTABLE | 🟡 ACCEPTABLE CONDITIONS | 🔴 REFUS TOTAL |
 | **Secteur** | Tech Renouvelable | Énergie | Sidérurgie |
@@ -21,14 +21,14 @@
 ### Intensité Carbone (clé de décision)
 
 ```
-GreenTech:        72.82 kg CO2e/$1M  [VERT - optimal]
+Entreprise 1:     72.82 kg CO2e/$1M  [VERT - optimal]
                    ✅ 73% sous seuil
                    
-EnerCorp:         128.6 kg CO2e/$1M  [JAUNE - limite haute]
+Entreprise 2:     128.6 kg CO2e/$1M  [JAUNE - limite haute]
                    ⚠️ 29% au-dessus du minimum acceptable
                    
-HeavyManufacturing: 2,022.3 kg CO2e/$1M  [ROUGE - catastrophique]
-                     ❌ 404% au-dessus du seuil
+Entreprise 3:     2,022.3 kg CO2e/$1M  [ROUGE - catastrophique]
+                   ❌ 404% au-dessus du seuil
 ```
 
 **Visualisation (échelle logarithmique):**
@@ -38,14 +38,14 @@ HeavyManufacturing: 2,022.3 kg CO2e/$1M  [ROUGE - catastrophique]
 VERT       JAUNE              ROUGE
   ↓          ↓                  ↓
   72        128                2022
-GreenTech  EnerCorp   HeavyManufacturing
+Entreprise 1 Entreprise 2   Entreprise 3
 ```
 
 ---
 
 ## 📈 Répartition des Émissions par Portée
 
-### GreenTech Solutions
+### Entreprise 1
 ```
 Portée 1 (Directe):      1,523 kg (13.9%)  🟢 Faible
 Portée 2 (Électricité):  8,400 kg (76.9%)  ✅ 75% renouvelable
@@ -53,7 +53,7 @@ Portée 3 (Chaîne):       1,000 kg (9.2%)   🟢 Minimal
 TOTAL:                  10,923 kg         🟢 OPTIMAL
 ```
 
-### EnerCorp Industries
+### Entreprise 2
 ```
 Portée 1 (Directe):    485,460 kg (94.4%) 🔥 Dominant
 Portée 2 (Électricité): 23,100 kg (4.5%)  ⚠️ Problématique
@@ -61,7 +61,7 @@ Portée 3 (Chaîne):      5,850 kg (1.1%)   Ok
 TOTAL:                514,410 kg         ⚠️ RISQUE MODÉRÉ
 ```
 
-### HeavyManufacturing Steel
+### Entreprise 3
 ```
 Portée 1 (Directe):   11,827,300 kg (97.5%) 🔥🔥 CATASTROPHIQUE
 Portée 2 (Électricité):  120,000 kg (1.0%)  
@@ -75,13 +75,13 @@ TOTAL:              12,133,700 kg         🔴 IRRESPONSABLE
 
 ### Ratio Revenu/Carbone
 ```
-GreenTech:           150 MDT / 10,923 kg = 13.74 MDT par kg CO2e
+Entreprise 1:        150 MDT / 10,923 kg = 13.74 MDT par kg CO2e
 ↑ Meilleur efficacité
 
-EnerCorp:            400 MDT / 514,410 kg = 0.78 MDT par kg CO2e
+Entreprise 2:        400 MDT / 514,410 kg = 0.78 MDT par kg CO2e
 ↓ Facteur 18x pire
 
-HeavyManufacturing:  600 MDT / 12,133,700 kg = 0.049 MDT par kg CO2e
+Entreprise 3:        600 MDT / 12,133,700 kg = 0.049 MDT par kg CO2e
 ↓↓ Facteur 280x pire
 ```
 
@@ -89,7 +89,7 @@ HeavyManufacturing:  600 MDT / 12,133,700 kg = 0.049 MDT par kg CO2e
 
 ## ✅ / ⚠️ / ❌ Vue Synthétique
 
-### Cas 1: GreenTech Solutions 🟢
+### Cas 1: Entreprise 1 🟢
 
 **Avantages:**
 - ✅ Intensité carbone très faible
@@ -106,7 +106,7 @@ HeavyManufacturing:  600 MDT / 12,133,700 kg = 0.049 MDT par kg CO2e
 
 ---
 
-### Cas 2: EnerCorp Industries 🟡
+### Cas 2: Entreprise 2 🟡
 
 **Avantages:**
 - ✅ Secteur stratégique (énergie)
@@ -130,7 +130,7 @@ HeavyManufacturing:  600 MDT / 12,133,700 kg = 0.049 MDT par kg CO2e
 
 ---
 
-### Cas 3: HeavyManufacturing Steel 🔴
+### Cas 3: Entreprise 3 🔴
 
 **Désavantages:**
 - ❌ Intensité carbone 4x au-dessus seuil
@@ -189,7 +189,7 @@ Industries lourdes polluantes
     
 Engagement ESG
 Fort            INVESTIR      INVESTIR    REFUSER
-                (GreenTech)   CONDITIONS
+                (Entreprise 1)   CONDITIONS
 
 Modéré          INVESTIR      ÉVALUER     REFUSER
                 CONDITIONNELLEMENT
@@ -205,8 +205,8 @@ Absent          ÉVALUER       REFUSER     REFUSER
 ### Allocation Stratégique
 
 **Allocation Idéale (Impact Investing):**
-- 60% Cas 1 type (excellence ESG): GreenTech
-- 30% Cas 2 type (transition): EnerCorp
+- 60% Cas 1 type (excellence ESG): Entreprise 1
+- 30% Cas 2 type (transition): Entreprise 2
 - 10% Autres (standards minimums)
 - 0% Cas 3 type (refus absolu)
 
@@ -219,7 +219,7 @@ Absent          ÉVALUER       REFUSER     REFUSER
 
 ## 📊 Données pour Tableau Comparatif
 
-| Métrique | GreenTech | EnerCorp | HeavyManufacturing |
+| Métrique | Entreprise 1 | Entreprise 2 | Entreprise 3 |
 |----------|-----------|----------|-------------------|
 | CO2 Portée 1 (kg) | 1,523 | 485,460 | 11,827,300 |
 | CO2 Portée 2 (kg) | 8,400 | 23,100 | 120,000 |
@@ -249,9 +249,9 @@ Absent          ÉVALUER       REFUSER     REFUSER
 - Valider méthodologie d'évaluation
 
 ### Pour Culture d'Entreprise
-- Montrer exemples positifs (GreenTech)
-- Illustrer risques de transition (EnerCorp)
-- Démontrer refus responsable (HeavyManufacturing)
+- Montrer exemples positifs (Entreprise 1)
+- Illustrer risques de transition (Entreprise 2)
+- Démontrer refus responsable (Entreprise 3)
 
 ---
 

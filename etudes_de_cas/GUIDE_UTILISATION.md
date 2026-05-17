@@ -19,15 +19,15 @@ etudes_de_cas/
 ├── README.md (ce fichier - guide principal)
 ├── COMPARAISON_3_CAS.md (comparatif détaillé)
 │
-├── 1_ACCEPTABLE_GreenTech_Solutions/
+├── 1_ACCEPTABLE_Entreprise_1/
 │   ├── cas_1.md (description complète)
 │   └── donnees_cas1.json (données)
 │
-├── 2_ACCEPTABLE_CONDITIONS_EnerCorp/
+├── 2_ACCEPTABLE_CONDITIONS_Entreprise_2/
 │   ├── cas_2.md (conditions strictes)
 │   └── donnees_cas2.json (données avec scenario)
 │
-└── 3_REFUS_TOTAL_HeavyManufacturing/
+└── 3_REFUS_TOTAL_Entreprise_3/
     ├── cas_3.md (analyse critique)
     └── donnees_cas3.json (données + risques)
 ```
@@ -36,12 +36,12 @@ etudes_de_cas/
 
 ## 💻 Procédure: Saisir un Cas dans le Dashboard
 
-### Cas 1: GreenTech Solutions (5 minutes)
+### Cas 1: Entreprise 1 (5 minutes)
 
 #### Étape 1: Créer l'Évaluation
 1. Ouvrir le dashboard `python -m streamlit run pfe_project/dashboard.py`
 2. Dans la **barre latérale**, sous "Configuration de l'Entreprise":
-   - **Nom**: `GreenTech Solutions SA`
+   - **Nom**: `Entreprise 1`
    - **Revenu annuel**: `150` MDT
    - **Année**: `2024`
 3. Cliquer **"Créer une nouvelle évaluation"**
@@ -113,12 +113,12 @@ etudes_de_cas/
 
 ---
 
-### Cas 2: EnerCorp Industries (10 minutes)
+### Cas 2: Entreprise 2 (10 minutes)
 
 #### Étape 1: Créer l'Évaluation
 1. **Nouveau calcul** (nouvelle session ou refresh)
 2. Dans la **barre latérale**:
-   - **Nom**: `EnerCorp Industries SARL`
+   - **Nom**: `Entreprise 2`
    - **Revenu annuel**: `400` MDT
    - **Année**: `2024`
 3. Cliquer **"Créer une nouvelle évaluation"**
@@ -201,12 +201,12 @@ etudes_de_cas/
 
 ---
 
-### Cas 3: HeavyManufacturing Steel (15 minutes)
+### Cas 3: Entreprise 3 (15 minutes)
 
 #### Étape 1: Créer l'Évaluation
 1. **Nouveau calcul**
 2. Dans la **barre latérale**:
-   - **Nom**: `HeavyManufacturing Steel Corp`
+   - **Nom**: `Entreprise 3`
    - **Revenu annuel**: `600` MDT
    - **Année**: `2024`
 3. Cliquer **"Créer une nouvelle évaluation"**
@@ -280,7 +280,7 @@ Ajoutez progressivement pour voir l'impact:
 ```
 
 **Observations critiques:**
-- Émissions 1000+ fois plus que GreenTech!
+- Émissions 1000+ fois plus que Entreprise 1!
 - Intensité carbone 4x au-dessus seuil
 - Portée 1 = 97.5% du total (fossiles)
 - Zéro énergies renouvelables
@@ -297,7 +297,7 @@ Ajoutez progressivement pour voir l'impact:
 
 ### Côte à Côte (3 sessions simultanées)
 ```
-GreenTech          EnerCorp            HeavyManufacturing
+Entreprise 1       Entreprise 2        Entreprise 3
 ═════════════════  ═════════════════  ═════════════════
 🟢 10.9K CO2e      🟡 514K CO2e        🔴 12.1M CO2e
 🟢 72.8 (kg/M)     🟡 128.6 (kg/M)    🔴 2,022 (kg/M)
@@ -359,9 +359,9 @@ def load_case_study(case_number: int):
     """Charge un cas d'étude et retourne le calculateur."""
     
     cases = {
-        1: "1_ACCEPTABLE_GreenTech_Solutions/donnees_cas1.json",
-        2: "2_ACCEPTABLE_CONDITIONS_EnerCorp/donnees_cas2.json",
-        3: "3_REFUS_TOTAL_HeavyManufacturing/donnees_cas3.json"
+        1: "1_ACCEPTABLE_Entreprise_1/donnees_cas1.json",
+        2: "2_ACCEPTABLE_CONDITIONS_Entreprise_2/donnees_cas2.json",
+        3: "3_REFUS_TOTAL_Entreprise_3/donnees_cas3.json"
     }
     
     if case_number not in cases:
@@ -381,7 +381,7 @@ def load_case_study(case_number: int):
     return CarbonFootprintCalculator(company)
 
 # Usage
-calc = load_case_study(1)  # Load GreenTech
+calc = load_case_study(1)  # Load Entreprise 1
 ```
 
 ---

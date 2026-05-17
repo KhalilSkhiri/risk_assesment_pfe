@@ -1,10 +1,10 @@
-# Cas 2: EnerCorp Industries 🟡 ACCEPTABLE SOUS CONDITIONS
+# Cas 2: Entreprise 2 🟡 ACCEPTABLE SOUS CONDITIONS
 
 ## Profil de l'Entreprise
 
 | Critère | Valeur |
 |---------|--------|
-| **Nom** | EnerCorp Industries SARL |
+| **Nom** | Entreprise 2 |
 | **Secteur** | Énergie & Distribution Électrique |
 | **Revenu Annuel** | 400 millions DT |
 | **Année d'Évaluation** | 2024 |

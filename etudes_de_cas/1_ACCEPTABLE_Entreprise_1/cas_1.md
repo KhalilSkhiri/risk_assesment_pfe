@@ -1,10 +1,10 @@
-# Cas 1: GreenTech Solutions 🟢 ACCEPTABLE
+# Cas 1: Entreprise 1 🟢 ACCEPTABLE
 
 ## Profil de l'Entreprise
 
 | Critère | Valeur |
 |---------|--------|
-| **Nom** | GreenTech Solutions SA |
+| **Nom** | Entreprise 1 |
 | **Secteur** | Technologie & Énergies Renouvelables |
 | **Revenu Annuel** | 150 millions DT |
 | **Année d'Évaluation** | 2024 |

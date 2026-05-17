@@ -1,10 +1,10 @@
-# Cas 3: HeavyManufacturing Steel 🔴 REFUS TOTAL
+# Cas 3: Entreprise 3 🔴 REFUS TOTAL
 
 ## Profil de l'Entreprise
 
 | Critère | Valeur |
 |---------|--------|
-| **Nom** | HeavyManufacturing Steel Corp |
+| **Nom** | Entreprise 3 |
 | **Secteur** | Sidérurgie & Production Acier |
 | **Revenu Annuel** | 600 millions DT |
 | **Année d'Évaluation** | 2024 |
@@ -98,7 +98,7 @@
 ## 📊 Benchmarking du Secteur
 
 ### Comparatif avec normes industrie sidérurgie
-| Métrique | HeavyManufacturing | Meilleure pratique | Écart |
+| Métrique | Entreprise 3 | Meilleure pratique | Écart |
 |----------|-------------------|-------------------|-------|
 | Intensité carbone | 2,022.3 | 400-600 | **3-5x pire** |
 | % Énergie renouvelable | 0% | 30-50% | **-30 à -50%** |
